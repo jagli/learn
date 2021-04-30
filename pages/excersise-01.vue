@@ -1,15 +1,17 @@
 <template>
-  <div class="center">
-    <div class="box">
-      <div class="box__num">Login</div>
-      <div class="box__ele">Login to access your dashboard.</div>
+  <div class="container">
+    <div class="center">
+      <div class="box">
+        <div class="box__num">Login</div>
+        <div class="box__ele">Login to access your dashboard.</div>
+      </div>
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
-body {
-  background: #f2f2f2;
+.container {
+  background: #e6e6e6;
   font-family: 'Poppins';
 }
 
@@ -30,7 +32,7 @@ div {
   height: 100px;
   border-radius: 5px;
   color: #6e6e6e;
-  background: white;
+  background: rgb(255, 255, 255);
 
   &__ele {
     font-size: 11px;
