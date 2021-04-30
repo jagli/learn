@@ -1,9 +1,12 @@
 <template>
   <div>
     <div class="nav">
-      <nuxt-link to="/">Home</nuxt-link>
-      <div></div>
-      <nuxt-link to="/excersise-01">Excersise 01</nuxt-link>
+      <ul>
+        <nuxt-link to="/">Home</nuxt-link>
+      </ul>
+      <ul>
+        <nuxt-link to="/excersise-01">Excersise 01</nuxt-link>
+      </ul>
     </div>
     <Nuxt />
   </div>
