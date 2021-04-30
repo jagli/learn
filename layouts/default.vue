@@ -9,7 +9,7 @@
 </template>
 
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('//fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
   margin: 0;
