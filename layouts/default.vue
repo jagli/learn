@@ -13,10 +13,7 @@
 
 * {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
-  #app {
-    font-family: 'Poppins', sans-serif;
-  }
+  font-family: 'Poppins';
 }
 .nav {
   position: fixed;
