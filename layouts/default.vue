@@ -2,10 +2,8 @@
   <div>
     <div class="nav">
       <ul>
-        <nuxt-link to="/">Home</nuxt-link>
-      </ul>
-      <ul>
-        <nuxt-link to="/excersise-01">Excersise 01</nuxt-link>
+        <li><nuxt-link to="/">Home</nuxt-link></li>
+        <li><nuxt-link to="/excersise-01">Excersise 01</nuxt-link></li>
       </ul>
     </div>
     <Nuxt />
@@ -23,5 +21,19 @@
   position: fixed;
   top: 10px;
   left: 10px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
 }
 </style>
