@@ -13,7 +13,7 @@
 
 * {
   margin: 0;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
 }
 .nav {
   position: fixed;
